@@ -1,1 +1,32 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a0908"><meta name="description" content="GRP International × Antbro, bureau artistique professionnel pour la coordination des groupes, la progression des DJ, les entrevues et la diffusion vidéo.">
+<title>ANTBRO TV | GRP International — Bureau PRO v5</title>
+<link rel="manifest" href="./manifest.webmanifest"><link rel="icon" href="./assets/antbro-brand.png" type="image/png">
+<link rel="stylesheet" href="./style.css">
 
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand" aria-label="Antbro GRP International"><img src="./assets/antbro-brand.png" alt="Logo original Antbro GRP International"><div><b>ANTBRO<span>.</span></b><small>GRP INTERNATIONAL</small></div></div>
+    <div class="sidebar-heading">QUARTIER GÉNÉRAL</div>
+    <nav id="nav" class="sidebar-nav" aria-label="Navigation principale"></nav>
+    <div class="side-foot"><span class="online-dot"></span> BUREAU ARTISTIQUE PRO<div class="side-note">Conçu par MEYDEN · Partenaire technique<br>Décisions internes : GRP International</div></div>
+  </aside>
+  <div class="main-column">
+    <header class="topbar">
+      <div class="top-left"><button id="menu-button" class="icon-button menu-button" aria-label="Ouvrir le menu">☰</button><div class="breadcrumb"><b>ANTBRO <em>|</em> GRP INTERNATIONAL</b><small>Community & Artist Command Center</small></div></div>
+      <div class="top-actions"><button id="top-search-button" class="top-search" title="Rechercher un DJ">⌕ <span>Rechercher un DJ...</span></button><button id="top-backup" class="icon-button" title="Exporter une sauvegarde" aria-label="Exporter une sauvegarde">⇩</button><button id="top-settings" class="profile-chip" aria-label="Réglages"><span class="profile-pic">A</span><b>Antbro</b><span>⌄</span></button></div>
+    </header>
+    <main id="app" tabindex="-1"></main>
+    <footer class="app-footer">ANTBRO × GRP INTERNATIONAL <span>•</span> Infrastructure et conception MEYDEN <span>•</span> Les décisions, adhésions et validations demeurent sous l'autorité de GRP.</footer>
+  </div>
+</div>
+<nav class="bottom-nav" id="bottom-nav" aria-label="Navigation mobile"></nav>
+<div class="modal-root" id="modal-root"></div>
+<div class="toast-container" id="toast-root" aria-live="polite"></div>
+<input type="file" id="import-backup" accept=".json,application/json" hidden>
+<script src="./app.js"></script></body></html>
